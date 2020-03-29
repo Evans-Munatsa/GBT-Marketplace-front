@@ -33,7 +33,7 @@ const Menu = ({history}) => (
                         </Link>
                     </li>
                 </Fragment>
-            )}
+            )};
 
             {isAuthenticated() && (
                 <li className="nav-item">
@@ -47,6 +47,6 @@ const Menu = ({history}) => (
             )}
         </ul>
     </div>
-)
+);
 
 export default withRouter(Menu);
